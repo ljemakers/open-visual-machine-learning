@@ -3,6 +3,14 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+**/**/*.pth
+**/**/*.ini
+**/**/prediction.txt
+**/**/prediction.csv
+**/**/data_time_series/*.*
+**/**/datasets/*.*
+*.ini
+
 # C extensions
 *.so
 
@@ -127,3 +135,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/python_src/19_forecast_proton/dji_model.h
+/python_src/19_forecast_proton/data_time_series
+/python_src/19_forecast_proton/datasets
+/python_src/19_forecast_proton/*.sqlite
+/python_src/19_forecast_proton/*.sqlite
+/python_src/19_forecast_proton/*.db
+/python_src/19_forecast_proton/*.sqlite-journal
